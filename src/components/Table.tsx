@@ -46,7 +46,7 @@ const Table = <T extends { name: string; id: number }>({
             ))}
           </tr>
         </thead>
-        <tbody className="bg-white divide-y divide-gray-200">
+        <tbody className="bg-white divide-y divide-gray-200 text-gray-400">
           {filteredData.map((item) => (
             <tr key={item.id}>
               {columns.map((column) => (
